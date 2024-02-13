@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Memories!!!</title>
+    <title>Stylistic - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -57,6 +57,9 @@
 	        </div>
 	        <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
         </div>
+		<audio id="myAudio" controls autoplay>
+			<source src="invisible_string.mp3" type="audio/mp3">
+		</audio>
       </header>
 			
 			<section class="hero-wrap" style="background-image: url(images/bg_1.jpg);">
@@ -319,6 +322,12 @@
 	    </section>
     </div>
 
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+		  var audio = document.getElementById("myAudio");
+		  audio.play();
+		});
+	</script>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
